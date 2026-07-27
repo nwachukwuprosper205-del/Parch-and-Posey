@@ -10,6 +10,7 @@ This report presents an Exploratory Data Analysis (EDA) of Parch & Posey, a pape
 The goal of this project is to uncover key revenue drivers, identify high-value customer segments, and surface operational bottlenecks to guide executive decision-making.
 
 ---
+<img width="720" height="859" alt="Screenshot_20260727-021054~2" src="https://github.com/user-attachments/assets/84cb3384-ed7f-4e8e-b0d4-6a9a5c3646c0" />
 
 ## 📈 Core Findings & Business Insights
 
