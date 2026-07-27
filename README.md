@@ -1,5 +1,3 @@
-# Parch-and-Posey
-Exploratory Data Analysis on the Parch &amp; Posey SQL dataset analyzing sales performance, order trends, and customer segments.
 # Parch and Posey — Exploratory Data Analysis
 
 # 📊 Parch & Posey Data Analysis & Business Performance Report
@@ -26,9 +24,13 @@ Parch & Posey offers three core product lines: **Standard**, **Gloss**, and **Po
 ### 2. Geographic & Regional Distribution
 Sales are distributed across four main operational regions: **Northeast**, **Southeast**, **Midwest**, and **West**.
 
+
+
 * **Top Performing Region:** The Northeast leads in both client density and cumulative revenue generation.
 * **Growth Opportunity:** The West and Midwest regions show lower total account counts, presenting untapped opportunities for market expansion.
 * **Account Concentration:** Revenue isn't evenly distributed—a small subset of top accounts in key metropolitan hubs drives a significant portion of regional revenue (adhering to the Pareto 80/20 principle).
+<img width="209" height="92" alt="Screenshot (750)" src="https://github.com/user-attachments/assets/d4b0f090-2e92-4e31-a306-6903df4dc48e" />
+<img width="190" height="96" alt="Screenshot (749)" src="https://github.com/user-attachments/assets/a953f3a9-7f85-41a4-ad24-b559b05deecb" />
 
 ### 3. Customer Acquisition & Marketing Channel Performance
 Analyzing customer touchpoints across `web_events` reveals how accounts discover and engage with the business:
