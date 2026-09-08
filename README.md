@@ -51,7 +51,17 @@ The goal of this project is to uncover key revenue drivers, identify high-value 
 
 *(For non-technical readers: The analyst used database queries—specifically SQL—to clean up raw data, group orders by region and product type, rank top customers, and double-check that no missing or broken numbers skewed the results.)*
 ---
+## 🗄️ Database Schema & Data Model
 
+Below is the Entity-Relationship Diagram (ERD) detailing the primary keys (PK), foreign keys (FK), and table connections across the Parch & Posey relational database:
+
+<img width="720" height="488" alt="Screenshot_20260907-151753" src="https://github.com/user-attachments/assets/d5740ae8-27a4-4199-8f2c-963c2b564791" />
+
+### Key Table Relationships
+* **`accounts`** acts as the core central table connecting clients to sales representatives, order transactions, and web analytics.
+* **`orders`** connects to `accounts` via `account_id` (one-to-many).
+* **`sales_reps`** links to `region` via `region_id` to track geographic assignments.
+* **`web_events`** logs marketing channel touchpoints linked per account.
 ## 🛠️ Technical Stack & SQL Methodologies
 
 * **Database & Dialect:** PostgreSQL / MySQL
