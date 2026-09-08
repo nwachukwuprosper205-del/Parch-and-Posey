@@ -11,47 +11,45 @@ The goal of this project is to uncover key revenue drivers, identify high-value 
 <img width="720" height="859" alt="Screenshot_20260727-021054~2" src="https://github.com/user-attachments/assets/84cb3384-ed7f-4e8e-b0d4-6a9a5c3646c0" />
 
 ## 📈 Core Findings & Business Insights
+### 1. Paper Sales Breakdown
 
-### 1. Product Revenue Mix
-Parch & Posey offers three core product lines: **Standard**, **Gloss**, and **Poster** paper.
+* **Standard Paper (48% of sales):** The everyday bestseller. It brings in almost half the company’s money.
+* **Gloss Paper (39% of sales):** A solid middle-tier product that sells well.
+* **Poster Paper (13% of sales):** A specialty product with lower sales volume.
+* **Main takeaway:** Standard paper brings in volume, but Gloss and Poster paper are sold at higher unit prices, meaning better profit potential if sales increase.
 
-* **Standard Paper:** The primary revenue driver, accounting for roughly **48%** of total revenue, indicating strong baseline enterprise demand.
-* **Gloss Paper:** Accounts for approximately **39%** of total revenue, functioning as a strong mid-tier/upsell product.
-* **Poster Paper:** Represents the remaining **13%** of total revenue, serving as a specialized niche product line.
+### 2. Where the Money Comes From
 
-> **Key Takeaway:** While Standard paper drives volume, pricing strategy optimization on Gloss and Poster paper could yield higher profit margins given their higher average unit prices.
-
-### 2. Geographic & Regional Distribution
-Sales are distributed across four main operational regions: **Northeast**, **Southeast**, **Midwest**, and **West**.
-
-
-
-* **Top Performing Region:** The Northeast leads in both client density and cumulative revenue generation.
-* **Growth Opportunity:** The West and Midwest regions show lower total account counts, presenting untapped opportunities for market expansion.
-* **Account Concentration:** Revenue isn't evenly distributed—a small subset of top accounts in key metropolitan hubs drives a significant portion of regional revenue (adhering to the Pareto 80/20 principle).
+* **Top Region:** The Northeast brings in the most money and has the highest number of clients.
+* **Growth Areas:** The West and Midwest have fewer clients, meaning there is untapped room to grow.
+* **The "80/20" Rule:** A small group of big clients in major cities generates most of the total revenue.
 <img width="209" height="92" alt="Screenshot (750)" src="https://github.com/user-attachments/assets/d4b0f090-2e92-4e31-a306-6903df4dc48e" />
 <img width="190" height="96" alt="Screenshot (749)" src="https://github.com/user-attachments/assets/a953f3a9-7f85-41a4-ad24-b559b05deecb" />
 
-### 3. Customer Acquisition & Marketing Channel Performance
-Analyzing customer touchpoints across `web_events` reveals how accounts discover and engage with the business:
+### 3. How Clients Find the Company
 
-* **Direct & Organic Search:** Generate the highest frequency of user interactions and account conversions.
-* **AdWords & Social Media:** Effective for top-of-funnel brand visibility, but require cost-per-acquisition (CPA) optimization to boost direct sales conversion.
-* **Referrals:** Show high conversion rates despite lower interaction volumes, highlighting the value of strong peer recommendation programs.
+* **Direct Visits & Search Engines:** Bring in the most website traffic and actual buyers.
+* **Online Ads & Social Media:** Great for getting the word out, but they need to cost less per customer brought in.
+* **Word of Mouth & Referrals:** Don't happen as often, but when they do, people almost always buy.
 
-### 4. Account Health & Inactive Client Pipeline
-* **Unconverted Accounts:** The analysis revealed a subset of registered corporate accounts that have zero order history.
-* **Business Impact:** These represent qualified leads that passed onboarding but stalled before initial transaction, representing immediate, low-cost targets for sales re-engagement campaigns.
+### 4. The "Ghost" Clients
+
+* **Unconverted Leads:** Several registered accounts have never placed an order. These are warm leads who signed up but stopped before buying—making them easy targets to reach out to.
 
 ---
 
-## 💡 Strategic Recommendations for Stakeholders
+## What Parch & Posey Should Do Next
 
-1. **Target Inactive Accounts:** Launch a win-back/activation campaign tailored to registered accounts with zero purchases to capture immediate low-hanging revenue.
-2. **Double Down on High-Value Clients:** Introduce dedicated account managers and volume incentive programs for the Top 10% highest-spending accounts to reduce churn risk.
-3. **Cross-Sell Gloss & Poster Lines:** Equip sales representatives in high-volume regions with bundled offers combining Standard paper with higher-margin Gloss/Poster products.
-4. **Optimize Regional Sales Allocation:** Reallocate sales representatives toward underperforming regions (Midwest/West) where client acquisition per rep is relatively low.
+* **Wake Up Inactive Clients:** Reach out to the registered accounts that haven't bought anything yet with a quick promotion.
+* **Protect Top Clients:** Give the top 10% biggest spenders dedicated support and volume discounts so they don't leave for competitors.
+* **Bundle Products:** Encourage buyers who only order Standard paper to try Gloss or Poster paper in a discounted package deal.
+* **Rebalance the Sales Team:** Move some sales reps into the West and Midwest regions to get more clients in those untapped markets.
 
+---
+
+## Summary of How the Data Was Processed
+
+*(For non-technical readers: The analyst used database queries—specifically SQL—to clean up raw data, group orders by region and product type, rank top customers, and double-check that no missing or broken numbers skewed the results.)*
 ---
 
 ## 🛠️ Technical Stack & SQL Methodologies
