@@ -1,5 +1,5 @@
 # Parch and Posey — Exploratory Data Analysis
-
+**Timeline:** Dec 2013 – Jan 2017 | **Tooling:** SQL, Power BI
 # 📊 Parch & Posey Data Analysis & Business Performance Report
 
 ## Executive Summary
